@@ -293,3 +293,44 @@ nav .topnav .nav-links .links .arrow {
     color: rgb(0, 0, 0);
     margin-bottom: 4rem;
 }
+
+/*about*/
+.about .item-header h3 {
+    font-family: "Playfair Display";
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 48px;
+    color: rgb(0, 0, 0);
+}
+
+.about .item-body,
+.about .item-footer {
+    margin-top: 3rem;
+}
+
+.about .item-body p {
+    font-size: 16px;
+    line-height: 27.2px;
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 400;
+}
+
+.about .item-footer a {
+    color: red;
+}
+
+/*services*/
+.services .item-content {
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.services .item-content img {
+    width: 100px;
+    height: 100px;
+}
+
+.services .room-title  {
+    margin-top: 1rem;
+    color: red;
+}
