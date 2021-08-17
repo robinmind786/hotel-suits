@@ -278,3 +278,18 @@ nav .topnav .nav-links .links .arrow {
     line-height: 27.2px;
     color: rgb(92, 120, 147);
 }
+
+/*Gallery*/
+.gallery img {
+    width: 100%;
+}
+
+.gallery .section-headings  {
+    position: relative;
+    font-family: "Playfair Display";
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 48px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 4rem;
+}
