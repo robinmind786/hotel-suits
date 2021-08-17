@@ -4,3 +4,31 @@
 a {
 	text-decoration: none;
 }
+
+.section-padding {
+	padding: 100px 0;
+}
+
+.section-heading {
+	position: relative;
+	font-family: "Playfair Display";
+	font-size: 40px;
+	font-weight: 500;
+	line-height: 48px;
+	color: rgb(0, 0, 0);
+}
+
+.section-heading::before {
+	content: '----';
+	position: absolute;
+	height: 5px;
+	width: 100px;
+	color: black;
+	top: 100%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.text-center {
+	text-align: center;
+}

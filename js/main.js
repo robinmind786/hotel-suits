@@ -92,11 +92,35 @@ const subMenu = document.querySelectorAll('.sub-menu');
 // 	});
 // }
 
+// hasCollapsible.forEach(function (collapsible) {
+//   collapsible.addEventListener("click", function () {
+//     collapsible.classList.toggle("active");
 
-openSubMenu.forEach(function(submenu){
-	submenu.addEventListener('click', function(){
-		for(let i = 0; i < subMenu.length; i++) {
-			subMenu[i].classList.toggle('showMenu')
-		}
-	});
-});
+//     hasCollapsible.forEach(function (otherCollapsible) {
+//       if (otherCollapsible !== collapsible) {
+//         otherCollapsible.classList.remove("active");
+//       }
+//     });
+//   });
+// });
+
+
+
+
+
+// Slider
+var currentItem = 0;
+showSlide();
+
+function showSlide(n) {
+	var slides = document.getElementsByClassName('mySlides');
+	for(let i = 0; i < slides.length; i++) {
+		slides[i].style.display = 'none';
+	}
+	currentItem++;
+	if(currentItem > slides.length) {
+		currentItem = 1;
+	}
+	slides[currentItem-1].style.display = 'block';
+	setTimeout(showSlide, 2000);
+}

@@ -1,19 +1,74 @@
 @media only screen and (max-width: 600px) {
-	
+	.hero .slider-container .mySlides .slider-info {
+	    top: 50%;
+	}
+
+	.hero .slider-container .mySlides .slider-info .slider-title {
+	    font-size: 25px;
+
+	}
+	.hero .slider-container .mySlides .slider-info .slider-desc {
+	    margin-top: 5px;
+	    font-size: 12px;
+	}
 }
 
 @media only screen and (min-width: 600px) {
+	.hero .slider-container .mySlides .slider-info {
+	    top: 50%;
+	}
 
+	.hero .slider-container .mySlides .slider-info .slider-title {
+	    font-size: 30px;
+
+	}
+	.hero .slider-container .mySlides .slider-info .slider-desc {
+	    margin-top: 5px;
+	    font-size: 16px;
+	}
 }
 
 @media only screen and (min-width: 768px) {
+	.hero .slider-container .mySlides .slider-info {
+	    top: 40%;
+	}
 
+	.hero .slider-container .mySlides .slider-info .slider-title {
+	    font-size: 40px;
+
+	}
+	.hero .slider-container .mySlides .slider-info .slider-desc {
+	    margin-top: 10px;
+	    font-size: 20px;
+	}
 }
 
 @media only screen and (min-width: 992px) {
+	.hero .slider-container .mySlides .slider-info {
+	    top: 40%;
+	}
 
+	.hero .slider-container .mySlides .slider-info .slider-title {
+	    font-size: 50px;
+
+	}
+	.hero .slider-container .mySlides .slider-info .slider-desc {
+	    margin-top: 10px;
+	    font-size: 20px;
+	}
 }
 
 @media only screen and (min-width: 1200px) {
+	.hero .slider-container .mySlides .slider-info {
+	    top: 40%;
+	}
 
+	.hero .slider-container .mySlides .slider-info .slider-title {
+	    font-size: 64px;
+
+	}
+	.hero .slider-container .mySlides .slider-info .slider-desc {
+	    margin-top: 25px;
+	    font-size: 20px;
+	}
 }
