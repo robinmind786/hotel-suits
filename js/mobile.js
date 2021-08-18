@@ -1,12 +1,9 @@
-// document.addEventListener('DOMContentLoaded', init);
+document.addEventListener('DOMContentLoaded', init);
 
-// function init() {
-// 	let resWidth = matchMedia("(max-width: 768px)");
-// 	if(resWidth.matches) {
-// 	    document.getElementById("myNav").style.height = '70px';
-// 	} else {
+function init() {
+	setTimeout(function(){
+		document.getElementById('load').style.top = '-100%';
+	}, 4000);
+}
 
-// 	}
-// }
 
-var a = 0;
